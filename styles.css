@@ -1,0 +1,27 @@
+
+body {
+    box-sizing: border-box;
+}
+
+.section {
+    width: 400px; 
+    background-color: #e0cba8;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+.section ul {
+    margin-left: 30px;
+      
+}
+
+.custom-markers ::marker {
+    color: #cd5334;    
+}
+
+.section-title {
+    color: #333232;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
