@@ -1,27 +1,59 @@
 
+html {
+    font-family: Tahoma, Verdana, sans-serif;
+}
 body {
     box-sizing: border-box;
+    background-color:  #e4dee4;
+    margin: auto;
+    padding: auto;
+}
+
+p {
+    padding-bottom: 4px;
+    margin: auto;
+}
+.section-title {
+    color: #b10f2e;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: auto;
 }
 
 .section {
-    width: 400px; 
-    background-color: #e0cba8;
+    width: 800px; 
+    background-color:white;
     margin: 0 auto;
-    padding: 16px 0;
+    padding: 16px 8px;
 }
 
 .section ul {
     margin-left: 30px;
-      
+}
+.section li {
+    margin-bottom: 5px;
 }
 
 .custom-markers ::marker {
-    color: #cd5334;    
+    color: #b10f2e;    
 }
 
-.section-title {
-    color: #333232;
+.recipe-pic {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #b10f2e;
+    width: auto;
+}
+
+.container {
+    width: 800px;
+    background-color: #b10f2e;
+    color: white;
+    font-size: bold;
+    margin: 0 auto;
+    padding: 20px 16px;
     text-align: center;
-    padding: auto;
-    margin: auto;
 }
